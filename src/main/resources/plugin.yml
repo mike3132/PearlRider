@@ -1,0 +1,12 @@
+name: PearlRider
+version: '${project.version}'
+main: me.mike3132.pearlrider.Main
+api-version: 1.19
+authors: [ Mike3132 ]
+description: Ender pearl ride plugin
+website: https://www.ragnarok.icu
+commands:
+  PearlRider:
+    description: Admin commands for Pearl Rider
+    permission: pearlRider.Admin
+    aliases: pearl

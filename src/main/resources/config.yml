@@ -1,0 +1,36 @@
+#                                                 🖥🖥🖥🖥🖥🖥🖥🖥🖥🖥🖥🖥🖥
+#                                                   💻Pearl Rider Config💻
+#                                                   🔥Coded By Mike3132🔥
+#                                                   💻Pearl Rider Config💻
+#                                                 🖥🖥🖥🖥🖥🖥🖥🖥🖥🖥🖥🖥🖥
+
+Version: 'Version 1.0'
+ConfigVersion: '1.0'
+##### WARNING: DO NOT CHANGE ANYTHING ABOVE THIS LINE IT WILL BREAK THE PLUGIN!#####
+
+#✍✍✍✍✍Permissions✍✍✍✍✍
+#pearlRider.Admin > Grants access to /PearlRider commands.
+#pearlRider.Give > Grants access to giving custom ender pearls.
+#pearlRider.use > Grants access to ride Ender Pearls.
+#✍✍✍✍✍Permissions✍✍✍✍✍
+
+
+#####You can Modify the following how you wish#####
+#♢♢♢♢♢Ender Pearl Item♢♢♢♢♢
+
+#Pearl name -> Name of the ender pearl (Please use & for color codes).
+Pearl-Name: '&2Ender &aPearl'
+
+#Pearl lore -> Any lore lines you would like on the ender pearl (Please use & for color codes).
+Pearl-Lore:
+  - '&5This is a special ender pearl'
+  - '&dYou can ride this like a horse'
+  - '&bSimply throw it.'
+
+#See messages.yml for all configurable plugin messages
+#♏ If you have any questions please join my discord, open a support ticket and @Mike3132
+#♏ https://discord.gg/EHm6Ra3K
+#♏ Thanks for downloading and have a wonderful day
+
+#♛♛♛♛♛ END OF CONFIG ♛♛♛♛♛
+#This is the default file.
