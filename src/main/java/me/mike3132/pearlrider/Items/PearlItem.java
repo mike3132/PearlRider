@@ -1,16 +1,12 @@
-package me.mike3132.pearlrider.ItemManager;
+package me.mike3132.pearlrider.Items;
 
 import me.mike3132.pearlrider.Main;
-import org.bukkit.Bukkit;
 import org.bukkit.Material;
-import org.bukkit.NamespacedKey;
-import org.bukkit.enchantments.Enchantment;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.logging.Level;
 
 public class PearlItem {
 

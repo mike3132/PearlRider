@@ -1,6 +1,6 @@
 package me.mike3132.pearlrider.EventHandler;
 
-import me.mike3132.pearlrider.ItemManager.PearlItem;
+import me.mike3132.pearlrider.Items.PearlItem;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;

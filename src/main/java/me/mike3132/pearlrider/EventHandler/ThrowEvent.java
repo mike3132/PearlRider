@@ -1,7 +1,7 @@
 package me.mike3132.pearlrider.EventHandler;
 
-import me.mike3132.pearlrider.ChatManager.ChatMessages;
-import me.mike3132.pearlrider.ItemManager.PearlItem;
+import me.mike3132.pearlrider.Chat.ChatMessages;
+import me.mike3132.pearlrider.Items.PearlItem;
 import me.mike3132.pearlrider.Main;
 
 import org.bukkit.entity.EntityType;
@@ -16,6 +16,7 @@ import org.bukkit.scheduler.BukkitRunnable;
 
 public class ThrowEvent implements Listener {
 
+    private final boolean reUsePearls = Main.plugin.getConfig().getBoolean("Reusable-Pearls");
 
     @EventHandler
     public void ride(ProjectileLaunchEvent ple) {
@@ -28,7 +29,9 @@ public class ThrowEvent implements Listener {
                 ItemStack pearl = pearlItem.getPearl();
                 if (projectile.getType().equals(EntityType.ENDER_PEARL)) {
                     if (!player.isInsideVehicle()) {
-                        projectile.addPassenger(player);new BukkitRunnable() {
+                        projectile.addPassenger(player);
+                        if (!reUsePearls) return;
+                        new BukkitRunnable() {
                             @Override
                             public void run() {
                                 if (!player.getInventory().getItemInMainHand().isSimilar(pearl)) {

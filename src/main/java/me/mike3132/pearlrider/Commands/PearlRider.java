@@ -1,9 +1,8 @@
-package me.mike3132.pearlrider.CommandManager;
+package me.mike3132.pearlrider.Commands;
 
-import me.mike3132.pearlrider.ChatManager.ChatMessages;
-import me.mike3132.pearlrider.ItemManager.PearlItem;
+import me.mike3132.pearlrider.Chat.ChatMessages;
+import me.mike3132.pearlrider.Items.PearlItem;
 import me.mike3132.pearlrider.Main;
-import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -20,6 +19,7 @@ public class PearlRider implements CommandExecutor {
 
         if (!(sender instanceof Player)) {
             sender.sendMessage(Main.chatColor("&d[&5Pearl &bRider&d] " + "&4&lYou cannot use PearlRider commands from console"));
+            return true;
         }
         Player player = (Player) sender;
 

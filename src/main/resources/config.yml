@@ -16,6 +16,15 @@ ConfigVersion: '1.0'
 
 
 #####You can Modify the following how you wish#####
+
+#Should ender pearls be re-usable? (If this is set to true players are given another pearl after throwing one)
+Reusable-Pearls: true
+
+#Should the player be given an ender pearl when they join the server?
+#(If set to false you can still give pearls using the /PearlRider give command)
+Pearl-Given-On-Join: true
+
+
 #♢♢♢♢♢Ender Pearl Item♢♢♢♢♢
 
 #Pearl name -> Name of the ender pearl (Please use & for color codes).

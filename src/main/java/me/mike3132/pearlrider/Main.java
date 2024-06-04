@@ -1,6 +1,6 @@
 package me.mike3132.pearlrider;
 
-import me.mike3132.pearlrider.CommandManager.PearlRider;
+import me.mike3132.pearlrider.Commands.PearlRider;
 import me.mike3132.pearlrider.EventHandler.FallEvent;
 import me.mike3132.pearlrider.EventHandler.LoginEvent;
 import me.mike3132.pearlrider.EventHandler.ThrowEvent;

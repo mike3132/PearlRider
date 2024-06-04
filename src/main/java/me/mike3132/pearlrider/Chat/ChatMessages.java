@@ -1,4 +1,4 @@
-package me.mike3132.pearlrider.ChatManager;
+package me.mike3132.pearlrider.Chat;
 
 import me.mike3132.pearlrider.Main;
 import org.bukkit.ChatColor;
